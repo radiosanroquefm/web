@@ -3,13 +3,7 @@
 const CACHE_NAME = 'v1_cache_sanroque',
   urlsToCache = [
     './',
-    './ajax/libs/font-awesome/5.14.0/css/all.min.css',
-    './css/vendor/slick.css',
-    './css/vendor/venobox.min.css',
-    './css/vendor/bootstrap.min.css',
-    './css/custom/main.css',
-    './js/custom/player.js',
-    './css/custom/index.css'
+    './ajax/libs/font-awesome/5.14.0/css/all.min.css'
   ]
 
 //durante la fase de instalación, generalmente se almacena en caché los activos estáticos
@@ -60,3 +54,4 @@ self.addEventListener('fetch', e => {
       })
   )
 })
+
